@@ -1,0 +1,6 @@
+sdokor-depedleavecard-production.up.railway.app {
+	root * /app
+	file_server
+	try_files {path} /index.php
+	php_fastcgi localhost:9000
+}
