@@ -1,4 +1,4 @@
-sdokor-depedleavecard-production.up.railway.app {
+:80{
 	root * /app
 	file_server
 	try_files {path} /index.php
